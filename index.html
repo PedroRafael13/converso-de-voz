@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html lang="pt-bt">
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Converso de voz</title>
+  <title>Conversor de voz</title>
 </head>
 
 <body>
   <main>
-    <h1>Converso de <span>Texto</span> para<span> voz</span></h1>
+    <h1>Conversor de <span>Texto</span> para<span> voz</span></h1>
     <p>Digite um texto ou envie um arquivo</p>
 
     <div id="content">
@@ -27,19 +27,22 @@
           <select id="voice"></select>
         </div>
 
-        <div id="action-box">
-          <p>Clique para Ouvir:</p>
-          <button id="listen-bnt">Ouvir</button>
+        <div class="last-btn">
+          <div id="action-box">
+            <p>Clique para Ouvir:</p>
+            <button id="listen-bnt">Ouvir</button>
+          </div>
+          <div id="action-box">
+            <p>Baixar arquivo:</p>
+            <button id="download">Baixar Texto</button>
+          </div>
         </div>
+        <div>
 
-        <div id="action-box">
-          <p>Baixar arquivo:</p>
-          <button id="dowloand">Baixar Texto</button>
         </div>
       </div>
     </div>
-  </main>
-  <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>

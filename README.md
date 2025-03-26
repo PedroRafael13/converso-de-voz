@@ -6,11 +6,10 @@ O Conversor de Voz é um projeto desenvolvido com HTML, CSS e JavaScript que per
 
 ## Screenshots
 
-![Demostração](assets/image.png)
+![Demostração](assets/demostracao.png)
 
 
 ## Tecnologias 🖥️
-
 - HTML
 - CSS
 - JAVASCRIPT
